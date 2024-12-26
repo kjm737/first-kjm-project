@@ -14,7 +14,7 @@ function App() {
   { id: 2, title: '내용이지', body: '내용인데 뭐해' },
   { id: 3, title: '다구려', body: '진짜로 다구려' }]);
 
-  let [mode, setMode] = useState('WELCOME');
+  let [mode, setMode] = useState('WELCOME!!');
   let content = "welcome";
   let board2;
 
