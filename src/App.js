@@ -12,7 +12,7 @@ function App() {
 
   const [board, setBoard] = useState([{ id: 1, title: '가즈아', body: '나싫어 꺼져' },
   { id: 2, title: '내용이지', body: '내용인데 뭐해' },
-  { id: 3, title: '다구려', body: '진짜로 다구려' }]);
+  { id: 3, title: '다구려', body: '진짜로 다구려 초짜' }]);
 
   let [mode, setMode] = useState('WELCOME!!');
   let content = "welcome";
