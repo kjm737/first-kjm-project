@@ -22,7 +22,7 @@ function App() {
   //-------------------------------------생성--------------------------
   console.log('start ' + mode);
   if (mode == 'CREATE') {
-    console.log('CREATE START');
+    console.log('CREATE START!!');
     content = <Create onCreate={(_tilte, _body) => {
 
       let nextid = Number(board.length) + 1;
